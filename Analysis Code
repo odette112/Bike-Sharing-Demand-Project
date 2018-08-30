@@ -1,0 +1,13 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+import calendar
+from datetime import datetime
+sns.set()
+
+path = '/Users/QinShen/Downloads/Python-Data-Science-and-Machine-Learning-Bootcamp/共享单车/bike.csv'
+bike = pd.read_csv(path)
+bike.shape
+bike.head()
